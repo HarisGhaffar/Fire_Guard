@@ -2,17 +2,6 @@
 
 Welcome to **Fire Guard**, an innovative and intelligent fire detection and response system designed to protect lives and property by utilizing the power of AI. This project aims to automatically detect fire, locate its position, and trigger the necessary response mechanisms such as alerts, water sprinklers, and emergency calls.
 
-## 🚀 Features
-
-- **🔥 Fire Detection**: Uses AI to detect fire in real-time through video feed.
-- **📍 Location Identification**: Automatically identifies the exact position of the fire using image processing.
-- **🚨 Emergency Alerts**: Sends automatic alerts via SMS, email, or phone call to relevant authorities.
-- **📡 IP-based Location Tracking**: Determines the fire's location using IP addresses and provides map-based visualization.
-- **💧 Automatic Response**: Controls water sprinklers, fire extinguishers, or other fire suppression systems automatically.
-- **📈 Data Analysis**: Provides insights and analytics on fire incidents for further safety improvements.
-- **🌐 Cloud Integration**: Cloud services to store data and access it remotely.
-- **📱 Mobile Application**: Android app for remote monitoring and control.
-
 ## 📜 Table of Contents
 
 - [Features](#-features)
@@ -20,10 +9,16 @@ Welcome to **Fire Guard**, an innovative and intelligent fire detection and resp
 - [Usage](#-usage)
 - [Configuration](#-configuration)
 - [Technologies Used](#-technologies-used)
-- [Roadmap](#-roadmap)
-- [Contributing](#-contributing)
-- [License](#-license)
 - [Contact](#-contact)
+## 🚀 Features
+
+- **🔥 Fire Detection**: Uses AI to detect fire in real-time through video feed.
+- **📍 Location Identification**: Automatically identifies the exact position of the fire using image processing.
+- **🚨 Emergency Alerts**: Sends automatic alerts via SMS, email, or phone call to relevant authorities.
+- **📡 IP-based Location Tracking**: Determines the fire's location using IP addresses and provides map-based visualization.
+- **💧 Automatic Response**: Controls water sprinklers, fire extinguishers, or other fire suppression systems automatically.
+
+
 
 ## 🛠️ Installation
 
@@ -47,7 +42,8 @@ Configure Twilio for Alerts:
 
 Obtain your Twilio credentials and set up emergency alerts.
 Configure your phone number and alert message in the configuration file.
-🔧 Usage
+
+### Usage
 Start the Fire Detection:
 
 bash
@@ -60,7 +56,7 @@ In case of fire detection, the alert system will send notifications and activate
 Access the Dashboard:
 
 View the fire incident details, including detection logs, location, and other metrics.
-⚙️ Configuration
+### Configuration
 Before using the system, configure the following parameters:
 
 Twilio Credentials:
@@ -75,14 +71,14 @@ Configure the servo motor settings in the microcontroller code for nozzle positi
 Alert Settings:
 
 Set up the recipients for emergency alerts (SMS, Email, Phone Call).
-💻 Technologies Used
+### 💻Technologies Used
 Python: Core programming language used for fire detection and control.
 OpenCV: Used for real-time video processing and fire detection.
 Twilio API: Used for sending emergency alerts via SMS and phone calls.
 Arduino/ESP32: Microcontroller used for controlling fire suppression hardware.
 Cloud Integration: For remote monitoring and data analysis.
 Android Development (Kotlin/Java): Mobile app for monitoring the system.
-🛤️ Roadmap
+### 🛤️Roadmap
  Implement real-time fire detection using OpenCV.
  Integrate Twilio for automatic alerting.
  Develop hardware control for fire suppression.
@@ -90,7 +86,7 @@ Android Development (Kotlin/Java): Mobile app for monitoring the system.
  Mobile App for iOS.
  Advanced analytics and machine learning for better detection accuracy.
  Integration with existing fire alarm systems for comprehensive protection.
-🤝 Contributing
+### 🤝Contributing
 Contributions are welcome! If you would like to improve Fire Guard or fix any issues, feel free to:
 
 Fork the repository.
@@ -98,11 +94,11 @@ Create a new branch (git checkout -b feature-branch).
 Commit your changes (git commit -m "Add new feature").
 Push to the branch (git push origin feature-branch).
 Open a pull request.
-📜 License
+### 📜License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-📞 Contact
+### 📞Contact
 For any inquiries or support, please reach out to:
 
 Haris Ghaffar: contact.harisg@example.com
-LinkedIn: <a href='https://www.linkedin.com/in/harisghaffar/'>Haris Ghaffar</a>
+Social Media: <a href='https://www.linkedin.com/in/harisghaffar/'>LinkedIn</a>
